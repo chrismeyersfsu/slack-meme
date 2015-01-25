@@ -2,9 +2,7 @@
 Slack meme integration
 
 # Setup
-```
-npm install
-```
+* `npm install`
 * Create a http://memegenerator.net account and update the `config.json`.
 * Create a slack `/meme` slash command and update `slack : { token : '' }` in `config.json`.
 * Create a slack `Incoming Webhook` integration and update `slack : { webhook : '' }` in `config.json`.
