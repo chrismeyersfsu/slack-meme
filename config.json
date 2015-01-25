@@ -1,0 +1,14 @@
+{
+	"http": {
+		"port": 80
+	},
+	"memegenerator": {
+		"username": "",
+		"password": "",
+		"baseUrl": "http://version1.api.memegenerator.net"
+	},
+	"slack": {
+		"token": "",
+		"webhook": "https://hooks.slack.com/services/..."
+	}
+}
