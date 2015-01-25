@@ -12,3 +12,11 @@ Slack meme integration
 
 # Development
 `forever -w server.js`
+
+# Usage
+`/meme create "search string" "top text" "bottom text"` will create a meme and post it to the channel you are currently in. If you are in a direct message then the meme will be direct messaged to you from `slackbot`.
+
+For example:
+```
+/meme create "most interesting" "I don't always post memes, but when I do" "I use slackmeme"
+```
